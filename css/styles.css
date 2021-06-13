@@ -1,0 +1,195 @@
+body {
+  background: linear-gradient(#fff, #043439);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header nav,
+footer {
+  background-color: #076871;
+  color: white;
+  ;
+}
+
+header a {
+  color: #ffffff;
+  margin: 220px;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: inline-block
+}
+    
+.rainydayslogo {
+    position: relative;
+    left: 290px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.flexrainy {
+    display: flex;
+}
+
+.view-button {
+  background-color: #d9b500;
+  color: black;
+  font-size: 1em;
+  border-radius: 50px;
+  padding: 10px 80px;
+  text-transform: uppercase;
+}
+
+.buy-button {
+  background-color: #d9b500;
+  color: black;
+  font-size: 1em;
+  border-radius: 50px;
+  padding: 10px 80px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+.flexhome {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flexhome > * {
+    flex: 1;
+}
+
+.whitejacket {
+    background-color: white;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.imga {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
+  .mainflex {
+      display: flex;
+  }
+
+/* links */
+
+a {
+  text-decoration: none;
+}
+
+.current {
+  text-decoration: underline;
+}
+
+/* Product page */
+
+.product-space {
+  background-color: white;
+  text-align: center;
+  margin-left: 250px;
+  margin: auto;
+}
+
+.imgal {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    width:250px;
+    margin-left: 620px;
+}
+
+.centerjacket {
+    margin-bottom: 50px;
+}
+
+/* Checkout complete */
+
+.checkout-complete {
+  background-image: url(../images/pexels-adrianna-calvo-21267.jpg);
+  background-size: cover;
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-y: top;
+  color: white;
+  position: relative
+}
+
+.checkcenter {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 650px;
+    text-align: center;
+}
+
+.done-button {
+  background-color: #d9b500;
+  color: black;
+  font-size: 1em;
+  border-radius: 50px;
+  padding: 10px 80px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+/* contact page */
+
+.contact {
+  background-color: white;
+  text-align: center;
+}
+
+/* checkout page */
+
+.checkout {
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  padding: 40px;
+}
+
+.checkout * {
+    flex-basis: 1;
+}
+
+.order-button {
+  background-color: #d9b500;
+  color: black;
+  font-size: 1em;
+  border-radius: 50px;
+  padding: 10px 80px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 830px;
+  margin-bottom: auto;
+
+}
+
+/* about*/
+
+.about {
+  background-color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 925px) {
+    .rainydayslogo {
+        display: none;
+    }
+}
